@@ -1,6 +1,7 @@
 __author__ = 'ibmdev'
 # Import of library cmath to manage Complex Numbers
 import cmath
+
 print('Hello, World')
 x = cmath.sqrt(-5)
 print("The square root of -5 yields : " + str(x))
@@ -16,4 +17,11 @@ print('My second "string" with a quote into my sentence')
 print('My third string with an backslash character and simple quotes let\'s go ')
 print('My fourth string with an backslash character and double quotes \"Hello, World\" ')
 print('Let\'s say "Hello World" to Cozmo Robot"')
-# The next tutorial Concatenating Strings p 46
+# Concatenation of strings
+print('Let\'s say ' + '"Hello World" to Cozmo Robot')
+# Functions str and repr
+line1 = str('Hello,\n' + 'World')
+line2 = repr('Hello \n' + 'World')
+print('line 1 :  ' + line1)
+print('line 2 : ' + line2)
+# The next tutorial : Long Strings, Raw Strings, and bytes
